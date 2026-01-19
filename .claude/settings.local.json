@@ -7,7 +7,9 @@
       "Bash(timeout 10 npm run dev:*)",
       "Bash(npm run build:*)",
       "Bash(taskkill:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nfeat: implementa design moderno com tema claro/escuro\n\n- Adiciona lucide-react para ícones profissionais\n- Implementa sistema de tema claro/escuro com ThemeContext\n- Cria landing page moderna com gradientes e animações\n- Adiciona efeito de mouse interativo\n- Corrige configuração de paths no tsconfig.json\n- Adiciona documentação completa do projeto \\(README.md\\)\n- Documenta componentes React Bits úteis para CRM\n\nComponentes criados:\n- ThemeProvider: gerenciamento de tema com localStorage\n- ThemeToggle: botão para alternar entre temas\n\nMelhorias de UX:\n- Design responsivo para mobile e desktop\n- Cards interativos com hover effects\n- Animações suaves e transições\n- Relógio ao vivo mostrando horário atual\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git push:*)"
     ]
   }
 }
