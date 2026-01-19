@@ -29,19 +29,23 @@ Sistema CRM moderno e completo desenvolvido com as mais recentes tecnologias do 
 
 ```
 .
-├── frontend/          # Aplicação Next.js
+├── frontend/              # Aplicação Next.js
 │   ├── src/
-│   │   ├── app/      # Pages e layouts (App Router)
-│   │   ├── components/  # Componentes React reutilizáveis
-│   │   └── contexts/    # Contextos React (Theme, etc)
-│   └── public/       # Arquivos estáticos
+│   │   ├── app/          # Pages e layouts (App Router)
+│   │   ├── components/   # Componentes React reutilizáveis
+│   │   └── contexts/     # Contextos React (Theme, etc)
+│   ├── public/           # Arquivos estáticos
+│   └── package.json      # Dependências do frontend
 │
-└── backend/          # API NestJS
-    ├── src/
-    │   ├── modules/  # Módulos da aplicação
-    │   └── prisma/   # Schema e migrations
-    └── prisma/       # Configuração Prisma
+├── backend/              # API NestJS (em desenvolvimento)
+│   ├── package.json      # Dependências do backend
+│   └── src/              # Código-fonte (a ser criado)
+│
+├── README.md             # Documentação principal
+└── REACT_BITS_COMPONENTS.md  # Guia de componentes React Bits
 ```
+
+**Importante:** Cada subprojeto (frontend e backend) tem seu próprio `package.json` e `node_modules`. Instale as dependências em cada pasta separadamente.
 
 ## Funcionalidades Planejadas
 
@@ -66,21 +70,23 @@ Sistema CRM moderno e completo desenvolvido com as mais recentes tecnologias do 
 
 1. Clone o repositório
 ```bash
-git clone <url-do-repositorio>
-cd heuristic-banach
+git clone https://github.com/Felipe-Fernandes97/Software-House.git
+cd Software-House
 ```
 
-2. Instale as dependências do frontend
+2. Instale as dependências do **frontend**
 ```bash
 cd frontend
 npm install
 ```
 
-3. Instale as dependências do backend
+3. Instale as dependências do **backend** (quando necessário)
 ```bash
 cd ../backend
 npm install
 ```
+
+**Nota:** Cada pasta (frontend/backend) é um projeto independente com suas próprias dependências.
 
 ### Configuração
 
